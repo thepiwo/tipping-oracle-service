@@ -11,8 +11,8 @@ defmodule TippingOracleService.Supervisor do
 
   def init(:ok) do
     keypair = %{
-      public: "ak_2VnwoJPQgrXvreUx2L9BVvd9BidWwpu1ASKK1AMre21soEgpRT",
-      secret: ""
+      public: "ak_2WRZ6FqDStG2MHaP9GsiTT4CNDp7C86PXghrd7eSdVooMmdPc5",
+      secret: "8441df10047f52d12424c57cc8a2fa560d0e7391206084da923af2cdf5721131c6816002cea696b668c7270b0a3fb7c00aea4997ffa5ca05b2f329ae08a750e7"
     }
 
     client = Client.new(
